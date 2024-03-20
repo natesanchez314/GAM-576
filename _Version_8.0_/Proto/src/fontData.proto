@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "glyphData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message fontData_proto
+{
+	optional uint32 count = 1;
+	repeated glyphData_proto glyphs = 2;
+}

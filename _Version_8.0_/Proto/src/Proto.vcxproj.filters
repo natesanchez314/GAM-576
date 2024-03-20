@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MeshData">
+      <UniqueIdentifier>{95635b7f-a96a-48b4-8902-7bb90ce47b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextureData">
+      <UniqueIdentifier>{c581c354-ba94-44e0-8341-8b8d287ff531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VBOData">
+      <UniqueIdentifier>{b7dee68d-80b2-4469-a35d-7f0e01262bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vec3Data">
+      <UniqueIdentifier>{a4323de9-aaa8-4fb4-bef9-ad085604334c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuatData">
+      <UniqueIdentifier>{5b1dc950-4bc6-48d3-b9c4-559983ddf32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BoneData">
+      <UniqueIdentifier>{b648d916-f44d-4968-b6cc-283c20652d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrameData">
+      <UniqueIdentifier>{8b279bf9-6439-4588-8799-008f78d3b896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClipData">
+      <UniqueIdentifier>{c2e65972-4bd8-4c35-bf35-e1481ec54f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpriteData">
+      <UniqueIdentifier>{dfe859ab-a0da-492d-b5bd-40bdde2aa455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FontData">
+      <UniqueIdentifier>{2bf274ab-0e31-4e2e-a0f3-dd533bda525d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GlyphData">
+      <UniqueIdentifier>{dcdd26b2-15d8-44e1-87ca-8bf375234000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImageData">
+      <UniqueIdentifier>{3458cd1f-4179-4b9e-a687-31b6481b8c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SkelData">
+      <UniqueIdentifier>{faad857e-e9fa-4902-a87d-a4b3f0a25a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HierarchyData">
+      <UniqueIdentifier>{2c5154a8-ecfe-4d0c-875a-9341bc0f624b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InvBind">
+      <UniqueIdentifier>{c4c8440c-3589-4b63-9e56-de481c9c979e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="meshData.cpp">
+      <Filter>Source Files\MeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="meshData.pb.cc">
+      <Filter>Source Files\MeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="textureData.cpp">
+      <Filter>Source Files\TextureData</Filter>
+    </ClCompile>
+    <ClCompile Include="textureData.pb.cc">
+      <Filter>Source Files\TextureData</Filter>
+    </ClCompile>
+    <ClCompile Include="vboData.cpp">
+      <Filter>Source Files\VBOData</Filter>
+    </ClCompile>
+    <ClCompile Include="vboData.pb.cc">
+      <Filter>Source Files\VBOData</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3Data.cpp">
+      <Filter>Source Files\Vec3Data</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3Data.pb.cc">
+      <Filter>Source Files\Vec3Data</Filter>
+    </ClCompile>
+    <ClCompile Include="quatData.cpp">
+      <Filter>Source Files\QuatData</Filter>
+    </ClCompile>
+    <ClCompile Include="quatData.pb.cc">
+      <Filter>Source Files\QuatData</Filter>
+    </ClCompile>
+    <ClCompile Include="boneData.cpp">
+      <Filter>Source Files\BoneData</Filter>
+    </ClCompile>
+    <ClCompile Include="boneData.pb.cc">
+      <Filter>Source Files\BoneData</Filter>
+    </ClCompile>
+    <ClCompile Include="frameData.cpp">
+      <Filter>Source Files\FrameData</Filter>
+    </ClCompile>
+    <ClCompile Include="frameData.pb.cc">
+      <Filter>Source Files\FrameData</Filter>
+    </ClCompile>
+    <ClCompile Include="clipData.cpp">
+      <Filter>Source Files\ClipData</Filter>
+    </ClCompile>
+    <ClCompile Include="clipData.pb.cc">
+      <Filter>Source Files\ClipData</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteData.cpp">
+      <Filter>Source Files\SpriteData</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteData.pb.cc">
+      <Filter>Source Files\SpriteData</Filter>
+    </ClCompile>
+    <ClCompile Include="fontData.cpp">
+      <Filter>Source Files\FontData</Filter>
+    </ClCompile>
+    <ClCompile Include="fontData.pb.cc">
+      <Filter>Source Files\FontData</Filter>
+    </ClCompile>
+    <ClCompile Include="glyphData.cpp">
+      <Filter>Source Files\GlyphData</Filter>
+    </ClCompile>
+    <ClCompile Include="imageData.cpp">
+      <Filter>Source Files\ImageData</Filter>
+    </ClCompile>
+    <ClCompile Include="imageData.pb.cc">
+      <Filter>Source Files\ImageData</Filter>
+    </ClCompile>
+    <ClCompile Include="glyphData.pb.cc">
+      <Filter>Source Files\GlyphData</Filter>
+    </ClCompile>
+    <ClCompile Include="skelData.cpp">
+      <Filter>Source Files\SkelData</Filter>
+    </ClCompile>
+    <ClCompile Include="skelData.pb.cc">
+      <Filter>Source Files\SkelData</Filter>
+    </ClCompile>
+    <ClCompile Include="boneContainer.cpp">
+      <Filter>Source Files\SkelData</Filter>
+    </ClCompile>
+    <ClCompile Include="boneContainer.pb.cc">
+      <Filter>Source Files\SkelData</Filter>
+    </ClCompile>
+    <ClCompile Include="hierarchyData.cpp">
+      <Filter>Source Files\HierarchyData</Filter>
+    </ClCompile>
+    <ClCompile Include="hierarchyData.pb.cc">
+      <Filter>Source Files\HierarchyData</Filter>
+    </ClCompile>
+    <ClCompile Include="invBindData.pb.cc">
+      <Filter>Source Files\InvBind</Filter>
+    </ClCompile>
+    <ClCompile Include="invBindData.cpp">
+      <Filter>Source Files\InvBind</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="meshData.proto">
+      <Filter>Source Files\MeshData</Filter>
+    </None>
+    <None Include="textureData.proto">
+      <Filter>Source Files\TextureData</Filter>
+    </None>
+    <None Include="vboData.proto">
+      <Filter>Source Files\VBOData</Filter>
+    </None>
+    <None Include="..\..\..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="vec3Data.proto">
+      <Filter>Source Files\Vec3Data</Filter>
+    </None>
+    <None Include="quatData.proto">
+      <Filter>Source Files\QuatData</Filter>
+    </None>
+    <None Include="boneData.proto">
+      <Filter>Source Files\BoneData</Filter>
+    </None>
+    <None Include="frameData.proto">
+      <Filter>Source Files\FrameData</Filter>
+    </None>
+    <None Include="clipData.proto">
+      <Filter>Source Files\ClipData</Filter>
+    </None>
+    <None Include="spriteData.proto">
+      <Filter>Source Files\SpriteData</Filter>
+    </None>
+    <None Include="fontData.proto">
+      <Filter>Source Files\FontData</Filter>
+    </None>
+    <None Include="glyphData.proto">
+      <Filter>Source Files\GlyphData</Filter>
+    </None>
+    <None Include="imageData.proto">
+      <Filter>Source Files\ImageData</Filter>
+    </None>
+    <None Include="skelData.proto">
+      <Filter>Source Files\SkelData</Filter>
+    </None>
+    <None Include="boneContainer.proto">
+      <Filter>Source Files\SkelData</Filter>
+    </None>
+    <None Include="hierarchyData.proto">
+      <Filter>Source Files\HierarchyData</Filter>
+    </None>
+    <None Include="invBindData.proto">
+      <Filter>Source Files\InvBind</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="meshData.h">
+      <Filter>Source Files\MeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="meshData.pb.h">
+      <Filter>Source Files\MeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="textureData.h">
+      <Filter>Source Files\TextureData</Filter>
+    </ClInclude>
+    <ClInclude Include="textureData.pb.h">
+      <Filter>Source Files\TextureData</Filter>
+    </ClInclude>
+    <ClInclude Include="vboData.h">
+      <Filter>Source Files\VBOData</Filter>
+    </ClInclude>
+    <ClInclude Include="vboData.pb.h">
+      <Filter>Source Files\VBOData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3Data.h">
+      <Filter>Source Files\Vec3Data</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3Data.pb.h">
+      <Filter>Source Files\Vec3Data</Filter>
+    </ClInclude>
+    <ClInclude Include="quatData.h">
+      <Filter>Source Files\QuatData</Filter>
+    </ClInclude>
+    <ClInclude Include="quatData.pb.h">
+      <Filter>Source Files\QuatData</Filter>
+    </ClInclude>
+    <ClInclude Include="boneData.h">
+      <Filter>Source Files\BoneData</Filter>
+    </ClInclude>
+    <ClInclude Include="boneData.pb.h">
+      <Filter>Source Files\BoneData</Filter>
+    </ClInclude>
+    <ClInclude Include="frameData.h">
+      <Filter>Source Files\FrameData</Filter>
+    </ClInclude>
+    <ClInclude Include="frameData.pb.h">
+      <Filter>Source Files\FrameData</Filter>
+    </ClInclude>
+    <ClInclude Include="clipData.h">
+      <Filter>Source Files\ClipData</Filter>
+    </ClInclude>
+    <ClInclude Include="clipData.pb.h">
+      <Filter>Source Files\ClipData</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteData.h">
+      <Filter>Source Files\SpriteData</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteData.pb.h">
+      <Filter>Source Files\SpriteData</Filter>
+    </ClInclude>
+    <ClInclude Include="fontData.h">
+      <Filter>Source Files\FontData</Filter>
+    </ClInclude>
+    <ClInclude Include="fontData.pb.h">
+      <Filter>Source Files\FontData</Filter>
+    </ClInclude>
+    <ClInclude Include="glyphData.h">
+      <Filter>Source Files\GlyphData</Filter>
+    </ClInclude>
+    <ClInclude Include="imageData.h">
+      <Filter>Source Files\ImageData</Filter>
+    </ClInclude>
+    <ClInclude Include="imageData.pb.h">
+      <Filter>Source Files\ImageData</Filter>
+    </ClInclude>
+    <ClInclude Include="glyphData.pb.h">
+      <Filter>Source Files\GlyphData</Filter>
+    </ClInclude>
+    <ClInclude Include="skelData.h">
+      <Filter>Source Files\SkelData</Filter>
+    </ClInclude>
+    <ClInclude Include="skelData.pb.h">
+      <Filter>Source Files\SkelData</Filter>
+    </ClInclude>
+    <ClInclude Include="boneContainer.h">
+      <Filter>Source Files\SkelData</Filter>
+    </ClInclude>
+    <ClInclude Include="boneContainer.pb.h">
+      <Filter>Source Files\SkelData</Filter>
+    </ClInclude>
+    <ClInclude Include="hierarchyData.h">
+      <Filter>Source Files\HierarchyData</Filter>
+    </ClInclude>
+    <ClInclude Include="hierarchyData.pb.h">
+      <Filter>Source Files\HierarchyData</Filter>
+    </ClInclude>
+    <ClInclude Include="invBindData.pb.h">
+      <Filter>Source Files\InvBind</Filter>
+    </ClInclude>
+    <ClInclude Include="invBindData.h">
+      <Filter>Source Files\InvBind</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

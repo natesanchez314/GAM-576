@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "boneData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message frameData_proto
+{
+	optional uint32 frame_index = 1;
+	optional float time = 2;
+	optional uint32 count = 3;
+	repeated boneData_proto bones = 4;
+}

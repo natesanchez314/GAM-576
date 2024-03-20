@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message imageData_proto
+{
+	optional uint32 x = 1;
+	optional uint32 y = 2;
+	optional uint32 width = 3;
+	optional uint32 height = 4;
+}

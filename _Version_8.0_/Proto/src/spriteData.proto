@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "vboData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message spriteData_proto
+{
+	optional uint32 triCount = 1;
+	optional uint32 vertCount = 2;
+	optional vboData_proto vbo_vert = 3;
+	optional vboData_proto vbo_uv = 4;
+	optional vboData_proto vbo_index = 5;
+}

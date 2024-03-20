@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+import "boneContainer.proto";
+
+message skelData_proto
+{
+	optional float boneCount = 1;
+	repeated boneContainer_proto bones = 2;
+	optional float jointTableCount = 3;
+	repeated uint32 jointTable = 4;
+}

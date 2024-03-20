@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "vec3Data.proto";
+import "quatData.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message boneData_proto
+{
+	optional vec3Data_proto t = 1;
+	optional quatData_proto q = 2;
+	optional vec3Data_proto s = 3;
+}
